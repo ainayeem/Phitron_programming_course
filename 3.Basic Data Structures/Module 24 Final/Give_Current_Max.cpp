@@ -60,7 +60,7 @@ int main()
         {
             if (pq.empty())
             {
-                cout << "Empty";
+                cout << "Empty" << endl;
             }
             else
                 // cout << pq.top() << endl;

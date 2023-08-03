@@ -5,10 +5,13 @@ int main()
 {
     int n;
     cin >> n;
-    vector<int> v(n);
+    vector<int> v;
     for (int i = 0; i < n; i++)
     {
-        cin >> v[i];
+        // cin >> v[i];
+        int val;
+        cin >> val;
+        v.push_back(val);
     }
     priority_queue<int, vector<int>, greater<int>> pq;
     for (int i = 0; i < n; i++)
@@ -32,29 +35,35 @@ int main()
 
         else if (q == 1)
         {
-            if (pq.empty())
+            if (!pq.empty())
             {
-                cout << "Empty";
+                cout << pq.top() << endl;
             }
             else
-                cout << pq.top() << endl;
+            {
+                cout << "Empty" << endl;
+            }
         }
         else if (q == 2)
         {
 
-            if (pq.empty())
+            if (!pq.empty())
             {
-                cout << "Empty" << endl;
-            }
-            else
-            {
+
                 pq.pop();
-                if (pq.empty())
+                if (!pq.empty())
+                {
+
+                    cout << pq.top() << endl;
+                }
+                else
                 {
                     cout << "Empty" << endl;
                 }
-                else
-                    cout << pq.top() << endl;
+            }
+            else
+            {
+                cout << "Empty" << endl;
             }
         }
         else

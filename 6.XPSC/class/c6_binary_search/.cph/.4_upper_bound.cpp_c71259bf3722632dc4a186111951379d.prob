@@ -1,0 +1,1 @@
+{"name":"Local: 4_upper_bound","url":"e:\\Phitron\\6.XPSC\\class\\c6_binary_search\\4_upper_bound.cpp","tests":[{"id":1700974518507,"input":"8\n1 1 2 2 3 3 3 5\n3","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"e:\\Phitron\\6.XPSC\\class\\c6_binary_search\\4_upper_bound.cpp","group":"local","local":true}

@@ -1,0 +1,1 @@
+{"name":"Local: 3_clear_it_bit","url":"e:\\Phitron\\6.XPSC\\class\\c5_bitmasking\\3_clear_it_bit.cpp","tests":[{"id":1699519125962,"input":"126\n1","output":"9"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"e:\\Phitron\\6.XPSC\\class\\c5_bitmasking\\3_clear_it_bit.cpp","group":"local","local":true}

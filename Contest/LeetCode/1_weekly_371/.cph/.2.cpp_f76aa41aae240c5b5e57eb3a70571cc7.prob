@@ -1,0 +1,1 @@
+{"name":"Local: 2","url":"e:\\Phitron\\Contest\\LeetCode\\1_weekly_371\\2.cpp","tests":[{"id":1699758835425,"input":"5 2\na 0549\nb 0457\na 0532\na  0621\nb 0540","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"e:\\Phitron\\Contest\\LeetCode\\1_weekly_371\\2.cpp","group":"local","local":true}
